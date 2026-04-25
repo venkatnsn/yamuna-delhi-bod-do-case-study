@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Virtual envs
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build folder is local-only (internal tooling — kept off GitHub for a clean view).
+# The published deliverables are the PDFs + notebook + index.html.
+build/
+*.tmp
+~$*
+
+# Office lock files
+~$*.docx
+~$*.xlsx
+
+# DOCX files are local intermediates only.
+# The published deliverables are the PDFs (regenerable from the JS builders + docx2pdf).
+*.docx
+
+# Editor
+.vscode/
+.idea/
